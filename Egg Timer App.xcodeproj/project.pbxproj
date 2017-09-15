@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29CBF2051F6C253A002BEFC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CBF2041F6C253A002BEFC1 /* AppDelegate.swift */; };
+		29CBF2071F6C253A002BEFC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CBF2061F6C253A002BEFC1 /* ViewController.swift */; };
+		29CBF20A1F6C253A002BEFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CBF2081F6C253A002BEFC1 /* Main.storyboard */; };
+		29CBF20C1F6C253A002BEFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29CBF20B1F6C253A002BEFC1 /* Assets.xcassets */; };
+		29CBF20F1F6C253A002BEFC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CBF20D1F6C253A002BEFC1 /* LaunchScreen.storyboard */; };
+		29CBF21A1F6C253A002BEFC1 /* Egg_Timer_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CBF2191F6C253A002BEFC1 /* Egg_Timer_AppTests.swift */; };
+		29CBF2251F6C253A002BEFC1 /* Egg_Timer_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CBF2241F6C253A002BEFC1 /* Egg_Timer_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29CBF2161F6C253A002BEFC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29CBF1F91F6C2539002BEFC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29CBF2001F6C253A002BEFC1;
+			remoteInfo = "Egg Timer App";
+		};
+		29CBF2211F6C253A002BEFC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29CBF1F91F6C2539002BEFC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29CBF2001F6C253A002BEFC1;
+			remoteInfo = "Egg Timer App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29CBF2011F6C253A002BEFC1 /* Egg Timer App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg Timer App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CBF2041F6C253A002BEFC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29CBF2061F6C253A002BEFC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29CBF2091F6C253A002BEFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29CBF20B1F6C253A002BEFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29CBF20E1F6C253A002BEFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29CBF2101F6C253A002BEFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29CBF2151F6C253A002BEFC1 /* Egg Timer AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg Timer AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CBF2191F6C253A002BEFC1 /* Egg_Timer_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_Timer_AppTests.swift; sourceTree = "<group>"; };
+		29CBF21B1F6C253A002BEFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29CBF2201F6C253A002BEFC1 /* Egg Timer AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg Timer AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CBF2241F6C253A002BEFC1 /* Egg_Timer_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_Timer_AppUITests.swift; sourceTree = "<group>"; };
+		29CBF2261F6C253A002BEFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29CBF1FE1F6C253A002BEFC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CBF2121F6C253A002BEFC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CBF21D1F6C253A002BEFC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29CBF1F81F6C2539002BEFC1 = {
+			isa = PBXGroup;
+			children = (
+				29CBF2031F6C253A002BEFC1 /* Egg Timer App */,
+				29CBF2181F6C253A002BEFC1 /* Egg Timer AppTests */,
+				29CBF2231F6C253A002BEFC1 /* Egg Timer AppUITests */,
+				29CBF2021F6C253A002BEFC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29CBF2021F6C253A002BEFC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29CBF2011F6C253A002BEFC1 /* Egg Timer App.app */,
+				29CBF2151F6C253A002BEFC1 /* Egg Timer AppTests.xctest */,
+				29CBF2201F6C253A002BEFC1 /* Egg Timer AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29CBF2031F6C253A002BEFC1 /* Egg Timer App */ = {
+			isa = PBXGroup;
+			children = (
+				29CBF2041F6C253A002BEFC1 /* AppDelegate.swift */,
+				29CBF2061F6C253A002BEFC1 /* ViewController.swift */,
+				29CBF2081F6C253A002BEFC1 /* Main.storyboard */,
+				29CBF20B1F6C253A002BEFC1 /* Assets.xcassets */,
+				29CBF20D1F6C253A002BEFC1 /* LaunchScreen.storyboard */,
+				29CBF2101F6C253A002BEFC1 /* Info.plist */,
+			);
+			path = "Egg Timer App";
+			sourceTree = "<group>";
+		};
+		29CBF2181F6C253A002BEFC1 /* Egg Timer AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				29CBF2191F6C253A002BEFC1 /* Egg_Timer_AppTests.swift */,
+				29CBF21B1F6C253A002BEFC1 /* Info.plist */,
+			);
+			path = "Egg Timer AppTests";
+			sourceTree = "<group>";
+		};
+		29CBF2231F6C253A002BEFC1 /* Egg Timer AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29CBF2241F6C253A002BEFC1 /* Egg_Timer_AppUITests.swift */,
+				29CBF2261F6C253A002BEFC1 /* Info.plist */,
+			);
+			path = "Egg Timer AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29CBF2001F6C253A002BEFC1 /* Egg Timer App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29CBF2291F6C253A002BEFC1 /* Build configuration list for PBXNativeTarget "Egg Timer App" */;
+			buildPhases = (
+				29CBF1FD1F6C253A002BEFC1 /* Sources */,
+				29CBF1FE1F6C253A002BEFC1 /* Frameworks */,
+				29CBF1FF1F6C253A002BEFC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Egg Timer App";
+			productName = "Egg Timer App";
+			productReference = 29CBF2011F6C253A002BEFC1 /* Egg Timer App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29CBF2141F6C253A002BEFC1 /* Egg Timer AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29CBF22C1F6C253A002BEFC1 /* Build configuration list for PBXNativeTarget "Egg Timer AppTests" */;
+			buildPhases = (
+				29CBF2111F6C253A002BEFC1 /* Sources */,
+				29CBF2121F6C253A002BEFC1 /* Frameworks */,
+				29CBF2131F6C253A002BEFC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29CBF2171F6C253A002BEFC1 /* PBXTargetDependency */,
+			);
+			name = "Egg Timer AppTests";
+			productName = "Egg Timer AppTests";
+			productReference = 29CBF2151F6C253A002BEFC1 /* Egg Timer AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29CBF21F1F6C253A002BEFC1 /* Egg Timer AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29CBF22F1F6C253A002BEFC1 /* Build configuration list for PBXNativeTarget "Egg Timer AppUITests" */;
+			buildPhases = (
+				29CBF21C1F6C253A002BEFC1 /* Sources */,
+				29CBF21D1F6C253A002BEFC1 /* Frameworks */,
+				29CBF21E1F6C253A002BEFC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29CBF2221F6C253A002BEFC1 /* PBXTargetDependency */,
+			);
+			name = "Egg Timer AppUITests";
+			productName = "Egg Timer AppUITests";
+			productReference = 29CBF2201F6C253A002BEFC1 /* Egg Timer AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29CBF1F91F6C2539002BEFC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Robert Jackson Jr";
+				TargetAttributes = {
+					29CBF2001F6C253A002BEFC1 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					29CBF2141F6C253A002BEFC1 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 29CBF2001F6C253A002BEFC1;
+					};
+					29CBF21F1F6C253A002BEFC1 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 29CBF2001F6C253A002BEFC1;
+					};
+				};
+			};
+			buildConfigurationList = 29CBF1FC1F6C2539002BEFC1 /* Build configuration list for PBXProject "Egg Timer App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29CBF1F81F6C2539002BEFC1;
+			productRefGroup = 29CBF2021F6C253A002BEFC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29CBF2001F6C253A002BEFC1 /* Egg Timer App */,
+				29CBF2141F6C253A002BEFC1 /* Egg Timer AppTests */,
+				29CBF21F1F6C253A002BEFC1 /* Egg Timer AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29CBF1FF1F6C253A002BEFC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CBF20F1F6C253A002BEFC1 /* LaunchScreen.storyboard in Resources */,
+				29CBF20C1F6C253A002BEFC1 /* Assets.xcassets in Resources */,
+				29CBF20A1F6C253A002BEFC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CBF2131F6C253A002BEFC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CBF21E1F6C253A002BEFC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29CBF1FD1F6C253A002BEFC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CBF2071F6C253A002BEFC1 /* ViewController.swift in Sources */,
+				29CBF2051F6C253A002BEFC1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CBF2111F6C253A002BEFC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CBF21A1F6C253A002BEFC1 /* Egg_Timer_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CBF21C1F6C253A002BEFC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CBF2251F6C253A002BEFC1 /* Egg_Timer_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29CBF2171F6C253A002BEFC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29CBF2001F6C253A002BEFC1 /* Egg Timer App */;
+			targetProxy = 29CBF2161F6C253A002BEFC1 /* PBXContainerItemProxy */;
+		};
+		29CBF2221F6C253A002BEFC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29CBF2001F6C253A002BEFC1 /* Egg Timer App */;
+			targetProxy = 29CBF2211F6C253A002BEFC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29CBF2081F6C253A002BEFC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29CBF2091F6C253A002BEFC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29CBF20D1F6C253A002BEFC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29CBF20E1F6C253A002BEFC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29CBF2271F6C253A002BEFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29CBF2281F6C253A002BEFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29CBF22A1F6C253A002BEFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Egg Timer App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.Egg-Timer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29CBF22B1F6C253A002BEFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Egg Timer App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.Egg-Timer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29CBF22D1F6C253A002BEFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Egg Timer AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.Egg-Timer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egg Timer App.app/Egg Timer App";
+			};
+			name = Debug;
+		};
+		29CBF22E1F6C253A002BEFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Egg Timer AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.Egg-Timer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egg Timer App.app/Egg Timer App";
+			};
+			name = Release;
+		};
+		29CBF2301F6C253A002BEFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Egg Timer AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.Egg-Timer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Egg Timer App";
+			};
+			name = Debug;
+		};
+		29CBF2311F6C253A002BEFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Egg Timer AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.Egg-Timer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Egg Timer App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29CBF1FC1F6C2539002BEFC1 /* Build configuration list for PBXProject "Egg Timer App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CBF2271F6C253A002BEFC1 /* Debug */,
+				29CBF2281F6C253A002BEFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29CBF2291F6C253A002BEFC1 /* Build configuration list for PBXNativeTarget "Egg Timer App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CBF22A1F6C253A002BEFC1 /* Debug */,
+				29CBF22B1F6C253A002BEFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29CBF22C1F6C253A002BEFC1 /* Build configuration list for PBXNativeTarget "Egg Timer AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CBF22D1F6C253A002BEFC1 /* Debug */,
+				29CBF22E1F6C253A002BEFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29CBF22F1F6C253A002BEFC1 /* Build configuration list for PBXNativeTarget "Egg Timer AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CBF2301F6C253A002BEFC1 /* Debug */,
+				29CBF2311F6C253A002BEFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29CBF1F91F6C2539002BEFC1 /* Project object */;
+}
